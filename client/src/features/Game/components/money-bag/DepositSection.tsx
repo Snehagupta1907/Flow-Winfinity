@@ -66,17 +66,17 @@ const DepositSection = () => {
               >
                 <option value='USDC'>USDC</option>
                 <option value='SOL'>SOL</option>
-                <option value='DEGO'>DEGO</option>
+                <option value='DEGO'>ETH</option>
               </select>
             </div>
             <div>
               <label>Select Network</label>
               <select
                 // onChange={handleChangeLines}
-                defaultValue='BNB'
+                defaultValue='Flow'
                 className='border-secondary placeholder:text-text focus:border-purple w-full rounded-md border-2 border-blue-400 bg-transparent px-4 py-2 font-bold text-white  transition-all placeholder:font-bold focus:outline-none'
               >
-                <option value='BNB'>BNB Network</option>
+                <option value='Flow'>Flow Network</option>
               </select>
             </div>
           </div>
